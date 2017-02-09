@@ -33,7 +33,7 @@ $myId = $app['optimus']->decode($hashId);
 #### Twig Extension
 If the `twig` service is available, the service provider adds an extension enabling a Twig filter to use in your templates.
 
-```
+```twig
 {{ my_id|optimus }}
 ```
 
